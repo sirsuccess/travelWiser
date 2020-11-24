@@ -1,0 +1,47 @@
+.navbar {
+  padding-top: 2em;
+  height: 100px;
+  ul {
+    list-style: none;
+    li {
+      font-weight: 500;
+      font-size: 16px;
+      margin-left: 2em;
+      cursor: pointer;
+      a {
+        color: #ffffff;
+        text-decoration: none;
+        &:hover {
+          color: #f36888;
+        }
+      }
+      button {
+        width: 93px;
+        height: 36px;
+        cursor: pointer;
+      }
+      .login {
+        border: 1px solid #f36888;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background-color: transparent;
+        color: #ffffff;
+        font-weight: 500;
+        &:hover {
+          color: #f36888;
+        }
+      }
+      .sign-up {
+        background: #f36888;
+        border-radius: 5px;
+        border: none;
+        color: #ffffff;
+        font-weight: 500;
+        &:hover {
+          background-color: transparent;
+          border: 1px solid #f36888;
+        }
+      }
+    }
+  }
+}

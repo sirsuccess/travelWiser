@@ -1,0 +1,40 @@
+
+  .steps-bottom {
+    margin: 2em auto;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    .step-circle {
+      width: 49px;
+      height: 49px;
+      background: #f36888;
+      font-weight: bold;
+      font-size: 28px;
+      line-height: 35px;
+      text-align: center;
+
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
+    .big-text {
+      font-weight: bold;
+      font-size: 30px;
+      line-height: 37px;
+      text-align: center;
+      margin-top: 0.8em;
+    }
+    .text {
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 25px;
+      text-align: center;
+    }
+  }
+

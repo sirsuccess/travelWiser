@@ -1,0 +1,37 @@
+.steps-container {
+  .steps {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+    .step {
+      margin-right: 1px;
+      color: #ffff;
+      text-align: center;
+      font-size: 14px;
+      .text {
+        font-weight: 600;
+        font-size: 15px;
+      }
+      .bar,
+      .bar4 {
+        width: 145.12px;
+        height: 8.47px;
+        background: #f36888;
+        margin-top: 0.3em;
+      }
+      .bar4 {
+        border-radius: 0px 5px 5px 0px;
+      }
+      .bar-white,
+      .bar-white4 {
+        width: 145.12px;
+        height: 8.47px;
+        background: #ffff;
+        margin-top: 0.3em;
+      }
+      .bar-white4 {
+        border-radius: 0px 5px 5px 0px;
+      }
+    }
+  }
+}
